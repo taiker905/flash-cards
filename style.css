@@ -13,7 +13,7 @@
 
 .cartao {    
   width: 260px;
-  height: 200px;
+  height: 300px;
 }
 
 .cartao-imagem{
@@ -29,6 +29,9 @@ body{
 
 main {
   flex: 1;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 }
 
 .cabecalho-link{
@@ -49,7 +52,7 @@ footer{
 
 .cartao-interno{
   position: relative;
-  trasition: transform 0.8s;
+  transition: transform 0.8s;
   transform-style: preserve-3d
 }
 
@@ -68,4 +71,11 @@ footer{
 .cartao-verso{
   transform:rotateY(180deg);
 }
+
+section{
+  display: flex;
+    
+
+}
+
 
